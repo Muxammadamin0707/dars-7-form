@@ -1,0 +1,102 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #2B3844;
+}
+
+body{
+    background-color: #202C36;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form input{
+    background-color: #2B3844;
+    border: none;
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-bottom: 38px;
+    padding: 10px;
+    width: 350px;
+    color: white;
+}
+
+.countries .country{
+    background-color: #2B3844;
+    width: 260px;
+    border-radius: 5px;
+}
+
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 25px;
+}
+
+h3{
+    padding-left: 25px;
+}
+
+form img{
+    height: 20px;
+    position: absolute;
+    left: -545px;
+    top: 116px;
+}
+
+header img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 278px;
+    top: 21px;
+}
+
+.country .bottum {
+    padding-top: 8px;
+}
+
+.countries .country img {
+    height: 160px;
+}
+
+.countries .country ul {
+    padding-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+    form {
+        text-align: center;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    .countries {
+        justify-content: center;
+    }
+}
